@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --primary-color: #5d2dc4;
+    --secundary-color: #131313;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: aliceblue;
+}
+
+.header {
+    background-color: var(--secundary-color);
+    color: aliceblue;
+    overflow: auto;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 30px 0 30px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+
+}
+
+.logo {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.destaque {
+    color: var(--primary-color);
+}
+
+.banner {
+    text-align: center;
+    background: rgb(207, 207, 207) url(../img/banner.gif) no-repeat fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 150px;
+    letter-spacing: 30px;
+}
+
+.banner h3 {
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+.saiba-mais button {
+    border: 0;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase; 
+    padding: 10px 30px;
+    margin-top: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: var(--secundary-color);
+    height: 115px;
+}
+
+.box {
+    overflow: auto; 
+}
+
+.box img {
+    height: 100px;
+}
+
+.box-item {
+    color: #444444;
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+}
+
+.footer {
+   text-align: center;
+   /* background-color: var(--primary-color); */
+   height: 90px;
+   background-color: var(--secundary-color);
+}
+
+.footer h4 {
+    margin: 0;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
